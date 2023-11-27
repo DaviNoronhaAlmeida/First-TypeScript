@@ -1,0 +1,48 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Construído
+dist/
+build/
+
+# Dependências
+node_modules/
+
+# Configurações
+*.swp
+*.swo
+*.swn
+.sass-cache/
+*.DS_Store
+Thumbs.db
+
+# Arquivos de compilação TypeScript
+*.js
+*.js.map
+
+# Arquivos temporários
+*.tmp
+*.temp
+
+# Arquivos de ambiente
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Cache do TypeScript
+*.tsbuildinfo
+
+# Cache do Jest
+node_modules/.cache/
+
+# Outros
+.DS_Store
+.vscode/
+.idea/
+
+# Arquivos de saída do Webpack
+dist/
